@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agent-skill-deployer"
+version = "0.1.0"
+description = "Deploy portable Agent Skills distributions across local agent hosts."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "tacticaldoll" }]
+keywords = ["agent-skills", "claude", "codex", "gemini", "deploy"]
+
+[project.scripts]
+skill-deploy = "agent_skill_deployer.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["agent_skill_deployer"]

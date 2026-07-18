@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "name": "example-distribution",
+  "display_name": "Example Distribution",
+  "description": "A neutral local fixture for deployment engine tests.",
+  "version": "0.1.0",
+  "repository": "https://example.com/example-distribution",
+  "skills_directory": "skills"
+}

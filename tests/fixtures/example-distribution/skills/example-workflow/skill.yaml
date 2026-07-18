@@ -1,0 +1,6 @@
+name: example-workflow
+version: 0.1.0
+description: Use when an agent needs to exercise a neutral deployment fixture.
+triggers:
+  - A deployment engine contract test.
+entrypoint: SKILL.md
